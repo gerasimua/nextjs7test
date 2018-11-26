@@ -6,7 +6,7 @@ import Modal from "../components/modal";
 export default class extends React.Component {
   static getInitialProps() {
     return {
-      photos: new Array(15).fill(0).map((v, k) => k + 1)
+      photos: new Array(20).fill(0).map((v, k) => k + 1)
     };
   }
 
