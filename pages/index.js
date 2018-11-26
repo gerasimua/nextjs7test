@@ -26,7 +26,7 @@ export default class extends React.Component {
 
   onKeyDown(e) {
     if (!this.props.url.query.photoId) return;
-    if (e.keyCode === 27) {
+    if (e.keyCode === 27 || e.keyCode === 28) {
       this.props.url.back();
     }
   }
